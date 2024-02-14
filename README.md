@@ -1,6 +1,4 @@
-# Discord Inject
-
-## A discord injection written in Rust for Unix.
+## A discord app injection written in Rust for Unix.
 
 *The concept is simple, a program that injects JS code into Discord's startup electron script to persistently steal tokens*
 
